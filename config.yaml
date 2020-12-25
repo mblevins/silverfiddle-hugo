@@ -1,0 +1,33 @@
+baseURL: https://www.silverfiddleranch.com
+languageCode: en-us
+title: Silver Fiddle Ranch
+theme: beautifulhugo
+
+params:
+  subtitle: "Silver Fiddle Ranch on the Interwebz!"
+  #mainSections: ["post"]
+  logo: "img/Forest_logo.png" 
+  favicon: "/img/Pinus_vector_green.ico"
+  dateFormat: "January 2, 2006"
+  commit: false
+  rss: false
+  comments: false
+  readingTime: true
+  wordCount: true
+  useHLJS: true
+  socialShare: false
+  delayDisqus: false
+  showRelatedPosts: false
+  hideAuthor: true
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Posts
+      url: post
+      weight: 2
+    - name: Tags
+      url: tags
+      weight: 3
